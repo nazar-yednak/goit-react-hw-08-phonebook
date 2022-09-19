@@ -14,13 +14,6 @@ import { contactSlice } from './myContact/slice';
 import { contactsApi } from './myContact/slice';
 import { authReducer } from './auth';
 import { setupListeners } from '@reduxjs/toolkit/query';
-// const middleware = [
-//   ...getDefaultMiddleware({
-//     serializableCheck: {
-//       ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
-//     },
-//   }),
-// ];
 
 const authPersistConfig = {
   key: 'auth',
