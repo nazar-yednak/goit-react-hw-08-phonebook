@@ -44,12 +44,12 @@ export default function RegisterView() {
   return (
     <div>
       <Helmet>
-        <title>Страница регистрации</title>
+        <title>Register page</title>
       </Helmet>
 
       <form onSubmit={handleSubmit} style={styles.form} autoComplete="off">
         <label style={styles.label}>
-          Имя
+          Name
           <input
             type="text"
             name="name"
@@ -60,7 +60,7 @@ export default function RegisterView() {
         </label>
 
         <label style={styles.label}>
-          Почта
+          Mail
           <input
             required
             type="email"
@@ -71,7 +71,7 @@ export default function RegisterView() {
         </label>
 
         <label style={styles.label}>
-          Пароль
+          Password
           <input
             required
             type="password"
@@ -81,7 +81,7 @@ export default function RegisterView() {
           />
         </label>
 
-        <button type="submit">Зарегистрироваться</button>
+        <button type="submit">Register</button>
       </form>
     </div>
   );
